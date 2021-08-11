@@ -16,7 +16,7 @@ jobs:
 
     runs-on: ubuntu-20.04
     env:
-      DOCKER_REPO: ghcr.io/retaildevcrews/ngsa-app
+      DOCKER_REPO: kevms/ngsa-test
 
     steps:
     - uses: actions/checkout@v2
