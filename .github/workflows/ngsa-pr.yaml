@@ -3,6 +3,8 @@ name: Build NGSA-App-PR
 on:
   pull_request:
     types: [opened, reopened, synchronize, closed]
+    branches:
+     - main
 
     paths:
       - 'Dockerfile'
